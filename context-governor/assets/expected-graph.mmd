@@ -1,0 +1,12 @@
+flowchart TD
+    T-001["T-001: Normalize PRD and task inputs"]:::done
+    T-002["T-002: Write ordered implementation checklist"]:::active
+    T-001 --> T-002
+    T-003["T-003: Render dependency graph and resume pack"]:::todo
+    T-002 --> T-003
+    classDef todo fill:#f3f4f6,stroke:#6b7280,color:#111827;
+    classDef active fill:#dbeafe,stroke:#2563eb,color:#1e3a8a;
+    classDef done fill:#dcfce7,stroke:#16a34a,color:#166534;
+    classDef blocked fill:#fee2e2,stroke:#dc2626,color:#7f1d1d;
+    classDef review fill:#fef3c7,stroke:#d97706,color:#78350f;
+    classDef conflict fill:#fce7f3,stroke:#db2777,color:#831843;

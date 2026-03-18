@@ -1,0 +1,6 @@
+interface:
+  display_name: "Context Governor"
+  short_description: "Plan and resume long projects with minimal context"
+  default_prompt: "Use $context-governor to turn the current approved PRD, implementation docs, or saved state into a sequenced checklist, dependency graph, and resumable context for future sessions, then resume work or sync progress with minimal context."
+policy:
+  allow_implicit_invocation: true

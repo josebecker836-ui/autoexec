@@ -1,0 +1,27 @@
+{
+  "plan_id": "context-governor-sample",
+  "tasks": [
+    {
+      "id": "T-001",
+      "title": "Normalize PRD and task inputs",
+      "status": "done",
+      "depends_on": []
+    },
+    {
+      "id": "T-002",
+      "title": "Write ordered implementation checklist",
+      "status": "in_progress",
+      "depends_on": [
+        "T-001"
+      ]
+    },
+    {
+      "id": "T-003",
+      "title": "Render dependency graph and resume pack",
+      "status": "todo",
+      "depends_on": [
+        "T-002"
+      ]
+    }
+  ]
+}

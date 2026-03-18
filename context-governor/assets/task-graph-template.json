@@ -1,0 +1,11 @@
+{
+  "plan_id": "<plan-id>",
+  "tasks": [
+    {
+      "id": "T-001",
+      "title": "<task-title>",
+      "status": "todo",
+      "depends_on": []
+    }
+  ]
+}

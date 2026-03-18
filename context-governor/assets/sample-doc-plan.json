@@ -1,0 +1,46 @@
+{
+  "plan_id": "context-governor-sample",
+  "title": "Context Governor Sample Plan",
+  "tasks": [
+    {
+      "id": "T-001",
+      "title": "Normalize PRD and task inputs",
+      "phase": "planning",
+      "status": "todo",
+      "depends_on": [],
+      "acceptance_criteria": [
+        "Approved PRD sections linked",
+        "Stable task IDs reserved"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "id": "T-002",
+      "title": "Write ordered implementation checklist",
+      "phase": "planning",
+      "status": "todo",
+      "depends_on": [
+        "T-001"
+      ],
+      "acceptance_criteria": [
+        "Checklist saved to docs/implementation/checklist.md",
+        "Dependencies captured with stable task IDs"
+      ],
+      "confidence": "confirmed"
+    },
+    {
+      "id": "T-003",
+      "title": "Render dependency graph and resume pack",
+      "phase": "tracking",
+      "status": "todo",
+      "depends_on": [
+        "T-002"
+      ],
+      "acceptance_criteria": [
+        "Mermaid graph rendered",
+        "Resume pack generated"
+      ],
+      "confidence": "confirmed"
+    }
+  ]
+}

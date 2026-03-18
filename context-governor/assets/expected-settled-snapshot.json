@@ -1,0 +1,68 @@
+{
+  "plan_id": "context-governor-sample",
+  "generated_at": "2026-03-15T08:30:00Z",
+  "current_task_id": "T-002",
+  "tasks": [
+    {
+      "id": "T-001",
+      "title": "Normalize PRD and task inputs",
+      "phase": "planning",
+      "status": "done",
+      "depends_on": [],
+      "acceptance_criteria": [
+        "Approved PRD sections linked",
+        "Stable task IDs reserved"
+      ],
+      "confidence": "confirmed",
+      "evidence": [
+        "Approved PRD sections mapped to stable task IDs"
+      ],
+      "current": false,
+      "next": [
+        "T-002"
+      ],
+      "last_updated_at": "2026-03-15T08:00:00Z"
+    },
+    {
+      "id": "T-002",
+      "title": "Write ordered implementation checklist",
+      "phase": "planning",
+      "status": "in_progress",
+      "depends_on": [
+        "T-001"
+      ],
+      "acceptance_criteria": [
+        "Checklist saved to docs/implementation/checklist.md",
+        "Dependencies captured with stable task IDs"
+      ],
+      "confidence": "confirmed",
+      "evidence": [
+        "Checklist draft saved to docs/implementation/checklist.md"
+      ],
+      "current": true,
+      "next": [
+        "T-003"
+      ],
+      "last_updated_at": "2026-03-15T08:20:00Z"
+    },
+    {
+      "id": "T-003",
+      "title": "Render dependency graph and resume pack",
+      "phase": "tracking",
+      "status": "todo",
+      "depends_on": [
+        "T-002"
+      ],
+      "acceptance_criteria": [
+        "Mermaid graph rendered",
+        "Resume pack generated"
+      ],
+      "confidence": "confirmed",
+      "evidence": [],
+      "current": false,
+      "next": [],
+      "last_updated_at": "2026-03-15T08:25:00Z"
+    }
+  ],
+  "warnings": []
+}

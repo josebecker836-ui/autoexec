@@ -1,0 +1,14 @@
+{
+  "generated_at": "<YYYY-MM-DDTHH:MM:SSZ>",
+  "current_task_id": "T-001",
+  "tasks": [
+    {
+      "id": "T-001",
+      "status": "todo",
+      "evidence": [],
+      "current": true,
+      "next": [],
+      "last_updated_at": "<YYYY-MM-DDTHH:MM:SSZ>"
+    }
+  ]
+}
