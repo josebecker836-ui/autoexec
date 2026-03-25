@@ -1,7 +1,7 @@
 interface:
   display_name: "Autonomous PRD Delivery"
-  short_description: "Execute PRD and flowchart work continuously until real blockers"
-  default_prompt: "Use $autonomous-prd-delivery to detect the PRD, specs, and flowcharts in this repo, resume from .codex/context/ when available, keep implementing and verifying the next ready task without milestone permission checkpoints, and stop only for real blockers."
+  short_description: "Execute PRD, repo project docs, and flowchart work continuously until true blockers"
+  default_prompt: "Use $autonomous-prd-delivery to detect Prompt.md, Plan.md, Implement.md, Documentation.md, the PRD/specs, and flowcharts in this repo, resume from repo docs plus .codex/context/ when available, keep implementing and verifying the next ready task without milestone permission checkpoints, sync repo-visible progress docs with saved state, and stop only for real blockers."
 
 policy:
   allow_implicit_invocation: true
